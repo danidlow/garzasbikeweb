@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(Foto\ Grupal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body:before{
+    content: "";
+    width:100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, rgb(46, 198, 232), rgb(182, 186, 190));
+    opacity: 0.5;
+    z-index: -1;
+}
+
+h1{
+
+font-family: sans-serif;
+font-size: 300%;
+color: red;
+text-align: center;
+
+}
+
+h2{
+
+padding: 10px;
+font-family: sans-serif;
+font-size: 100%;
+color: rgb(249, 241, 0);
+text-align: center;
+
+}
+
+img{
+  
+        background: linear-gradient(90deg, rgb(101, 117, 133), rgb(182, 186, 190));
+        opacity: 0.5;
+        z-index: -1;
+
+}
+
+a{
+
+font-size: 30px;
+font-family: sans-serif;
+color: blueviolet;
+
+}

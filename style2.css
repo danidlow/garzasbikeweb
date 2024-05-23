@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(grupo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body:before{
+    content: "";
+    width:100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, rgb(164, 232, 46), rgb(182, 186, 190));
+    opacity: 0.5;
+    z-index: -1;
+}
+
+h1{
+
+font-family: inherit;
+color: rgb(255, 4, 0);
+backdrop-filter: (23);
+text-align: center;
+font-size: 50px; 
+
+}
+
+h2{
+
+font-family:cursive;
+font-size: 30px;
+color:rgba(9, 19, 218, 0.668);
+
+}
+
+h3{
+
+font-family: sans-serif;
+font-size: 40px;
+text-align: center;
+color: rgba(11, 11, 11, 0.666);
+
+}

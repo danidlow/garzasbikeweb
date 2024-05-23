@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(Foto\ Grupal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body:before{
+    content: "";
+    width:100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, rgb(142, 9, 218), rgb(182, 186, 190));
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+
+h1{
+
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h2{
+
+font-size: 30px;
+font-family: sans-serif;
+color: rgb(14, 247, 53);
+text-align: center;
+
+}
+
+img{
+
+border-radius: 10%;
+background: linear-gradient(90deg, rgb(164, 232, 46), rgb(182, 186, 190));
+    opacity: 0.7;
+    z-index: -1;
+
+}
+
+a{
+
+font-size: 30px;
+font-family: sans-serif;
+color: rgb(105, 6, 144);
+
+}
